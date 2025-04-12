@@ -1,0 +1,110 @@
+body {
+  min-height: 500vh;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.4rem 7%;
+  background-color: rgba(124, 81, 81, 0.8);
+  border-bottom: 1px solid #513c28;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 2rem;
+  font-weight: 700;
+  font-style: italic;
+  padding-left: 10px;
+}
+
+.navbar h5 {
+  font-style: italic;
+}
+
+.offcanvas span {
+  color: rgb(252, 7, 178);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-nav a {
+  font-size: 1rem;
+  padding-right: 10rem;
+  padding-left: 3rem;
+}
+
+.navbar-nav a::after {
+  content: "";
+  display: block;
+  padding-bottom: 0.1rem;
+  border-bottom: 0.1rem solid #3d1616;
+  transform: scaleX(0);
+  transition: 0.2s linear;
+}
+
+.navbar-nav a:hover::after {
+  transform: scaleX(0.5);
+}
+
+.home {
+  background-color: rgba(231, 231, 231, 0.877);
+  background-size: cover;
+  min-height: 100vh;
+  margin-top: -6rem;
+  padding-top: 15rem;
+  padding-bottom: 5rem;
+}
+
+.home h1 {
+  font-size: 3em;
+  color: #000000;
+  text-shadow: 0 5px rgba(0, 10, 45, 0.5);
+  line-height: 1;
+  font-weight: bold;
+}
+
+.lead {
+  text-shadow: 0 5px rgba(0, 10, 45, 0.2);
+  line-height: 2;
+  font-weight: bold;
+  transition: all 3s ease infinite;
+}
+
+.img-thumbnail {
+  margin-top: 60px;
+}
+
+.icon-link {
+  font-size: 1.5rem;
+  color: #0526ff;
+  margin: 0 1rem;
+  transition: all 0.5s ease;
+}
+
+.icon-link:hover {
+  color: #ff0000;
+}
+
+.credit {
+  padding-top: 10px;
+  bottom: 3px;
+  color: #000000;
+  font-size: 0.8rem;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.credit span {
+  color: deeppink;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 1rem;
+  font-style: italic;
+}
